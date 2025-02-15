@@ -15,6 +15,9 @@ export default {
         positivusBlack: "#191A23",
         positivusGray: "#F3F3F3",
       },
+      fontFamily: {
+        sans: "var(--font-space-grotesk)",
+      },
       screens: {
         widescreen: { raw: "(min-aspect-ratio: 3/2)" },
         talescreen: { raw: "(max-aspect-ratio: 13/20)" },
