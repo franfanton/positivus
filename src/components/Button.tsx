@@ -2,15 +2,23 @@ interface ButtonProps {
   title: string;
   icon?: React.ElementType;
   handleButton: () => void;
+  styleButton?: string;
+  styleTitle?: string;
 }
 
-const Button = ({ title, icon: Icon, handleButton }: ButtonProps) => {
+const Button = ({
+  title,
+  icon: Icon,
+  handleButton,
+  styleButton,
+  styleTitle,
+}: ButtonProps) => {
   return (
     <button
-      className="flex bg-secondaryColor rounded-xl py-5 px-9 border-2 border-black"
+      className={`flex rounded-xl justify-center ${styleButton}`}
       onClick={handleButton}
     >
-      <div className="text-xl text-black">{title}</div>
+      <div className={`${styleTitle}`}>{title}</div>
       {Icon && <Icon className="w-6" />}
     </button>
   );

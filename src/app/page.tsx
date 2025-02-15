@@ -1,5 +1,6 @@
 "use client";
 
+import AboutUs from "@/components/AboutUs";
 import Navbar from "@/components/Navbar";
 import { useEffect } from "react";
 
@@ -31,12 +32,13 @@ export default function Home() {
     initApp();
   }, []);
   return (
-    <div className="font-[family-name:var(--font-geist-sans)]">
+    <div>
       <main className="">
         <Navbar />
       </main>
-      <div className="max-w-4xl mx-auto">
-        <footer className="">
+      <div className="max-w-[1440px] mx-auto sm:px-[100px] bg-white">
+        <AboutUs />
+        <footer className="bg-red-500">
           <div>Future Body</div>
         </footer>
       </div>

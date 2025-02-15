@@ -21,12 +21,12 @@ const Navbar = () => {
   return (
     <div className="bg-white text-black sticky top-0 z-10">
       <section className="max-w-7xl mx-auto p-8 flex justify-between items-center">
-        <h1 className="text-3xl font-medium flex items-center space-x-2">
+        <div className="flex items-center">
           <a href="#hero" className="flex items-center gap-2">
             <Image src="/icon.svg" alt="Logo" width={24} height={24} />
-            <span className="text-black text-3xl">Positivus</span>
+            <h1 className="text-black">Positivus</h1>
           </a>
-        </h1>
+        </div>
         <div>
           <button
             type="button"
@@ -45,6 +45,8 @@ const Navbar = () => {
             <Button
               title="Request a quote"
               handleButton={() => console.log("handleReport")}
+              styleTitle={"text-xl text-black"}
+              styleButton={"py-5 px-9 border-2 border-black"}
             />
           </nav>
         </div>
