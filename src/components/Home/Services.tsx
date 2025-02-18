@@ -46,7 +46,7 @@ const Services = () => {
   };
   return (
     <div>
-      <div className="md:gap-10 my-28 flex flex-col md:flex-row items-center">
+      <div className="md:gap-10 py-28 flex flex-col md:flex-row items-center">
         <h2 className="bg-positivusGreen text-black p-2 flex rounded items-center w-max">
           Services
         </h2>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="px-8 sm:p-0">
+    <div>
       <div className="flex justify-between gap-24">
         <div className="text-black justify-around flex flex-col">
           <h1>Navigating the digital landscape for success</h1>
@@ -40,7 +40,7 @@ const AboutUs = () => {
           alt="Amazon Logo"
           width={80}
           height={32}
-          className="sm:w-[125px] sm:h-[48px] filter grayscale filter grayscale"
+          className="sm:w-[125px] sm:h-[48px] filter grayscale"
         />
         <Image
           src="/dribbble.svg"
