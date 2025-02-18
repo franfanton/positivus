@@ -12,7 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         positivusGreen: "#B9FF66",
-        positivusBlack: "#191A23",
+        positivusDark: "#191A23",
         positivusGray: "#F3F3F3",
       },
       fontFamily: {

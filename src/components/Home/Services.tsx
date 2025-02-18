@@ -64,7 +64,7 @@ const Services = () => {
         <div className="absolute right-0 z-10 hidden lg:block">
           <Image
             src="services/thingsHappen.svg"
-            alt="Search Engine"
+            alt="things Happen"
             width={359}
             height={350}
             className="w-full object-contain"

@@ -38,7 +38,7 @@ export default function Home() {
       <main className="">
         <Navbar />
       </main>
-      <div className="max-w-[1440px] mx-auto px-8 sm:px-[100px] bg-white flex flex-col gap-7">
+      <div className="max-w-[1440px] mx-auto px-8 sm:px-[100px] bg-white flex flex-col gap-16">
         <AboutUs />
         <Services />
         <CaseStudies />
