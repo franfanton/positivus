@@ -1,6 +1,7 @@
 "use client";
 
-import AboutUs from "@/components/AboutUs";
+import AboutUs from "@/components/Home/AboutUs";
+import Services from "@/components/Home/Services";
 import Navbar from "@/components/Navbar";
 import { useEffect } from "react";
 
@@ -38,10 +39,9 @@ export default function Home() {
       </main>
       <div className="max-w-[1440px] mx-auto sm:px-[100px] bg-white">
         <AboutUs />
-        <footer className="bg-red-500">
-          <div>Future Body</div>
-        </footer>
+        <Services />
       </div>
+      <div className="mt-20">ASDADADS</div>
     </div>
   );
 }
