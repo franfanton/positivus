@@ -2,6 +2,7 @@
 
 import AboutUs from "@/components/Home/AboutUs";
 import CaseStudies from "@/components/Home/CaseStudies";
+import OurWorking from "@/components/Home/OurWorking";
 import Services from "@/components/Home/Services";
 import Navbar from "@/components/Navbar";
 import { useEffect } from "react";
@@ -42,6 +43,7 @@ export default function Home() {
         <AboutUs />
         <Services />
         <CaseStudies />
+        <OurWorking />
       </div>
       <div className="mt-20">ASDADADS</div>
     </div>

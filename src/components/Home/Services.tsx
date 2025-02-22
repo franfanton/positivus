@@ -2,10 +2,20 @@ import { ServicesMocks } from "@/mocks/servicesMocks";
 import Image from "next/image";
 import Button from "../Button";
 
+interface EntryProps {
+  id: string;
+  title: string;
+  icon: string;
+  styleCard: string;
+  styleTitle: string;
+  arrow: string;
+  styleIconText: string;
+}
+
 const Services = () => {
   const servicesData = ServicesMocks;
 
-  const renderItem = (entry: any, index: number) => {
+  const renderItem = (entry: EntryProps, index: number) => {
     return (
       <div
         key={entry.id}
@@ -56,7 +66,7 @@ const Services = () => {
         </p>
       </div>
       <div className="mx-5 md:mx-0 md:grid md:grid-cols-2">
-        {servicesData.map((entry: any, index: number) => {
+        {servicesData.map((entry: EntryProps, index: number) => {
           return renderItem(entry, index);
         })}
       </div>
