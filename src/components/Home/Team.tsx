@@ -1,6 +1,9 @@
 import { TeamMocks } from "@/mocks/teamMocks";
 import Image from "next/image";
+<<<<<<< HEAD
 import Button from "../Button";
+=======
+>>>>>>> 8e12495e4a24d6db6e89eeec2022be253601157e
 
 interface EntryProps {
   id: string;
