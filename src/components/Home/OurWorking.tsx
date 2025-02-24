@@ -24,7 +24,7 @@ const OurWorking = () => {
         key={index}
         className={`${
           !isShown ? "bg-positivusGray" : "bg-positivusGreen"
-        } px-14 py-10 rounded-[45px] flex flex-col gap-7 transition-all duration-300`}
+        } px-14 py-10 rounded-[45px] flex flex-col gap-7 transition-all duration-300  border-2 border-black shadow-lg shadow-black`}
       >
         <div className="flex justify-between">
           <div className="flex gap-6 items-center">
