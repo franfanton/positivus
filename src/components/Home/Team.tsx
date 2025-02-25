@@ -49,31 +49,29 @@ const Team = () => {
   };
 
   return (
-    <div>
-      <div className="flex flex-col gap-10">
-        <div className="md:gap-10 flex flex-col md:flex-row items-center">
-          <h2 className="bg-positivusGreen text-black p-2 flex rounded items-center w-max">
-            Team
-          </h2>
-          <p className="max-w-[580px] text-black text-center flex md:text-start my-5 md:my-0 px-5 md:px-0">
-            Meet the skilled and experienced team behind our successful digital
-            marketing strategies
-          </p>
-        </div>
+    <div className="flex flex-col gap-10">
+      <div className="md:gap-10 flex flex-col md:flex-row items-center">
+        <h2 className="bg-positivusGreen text-black p-2 flex rounded items-center w-max">
+          Team
+        </h2>
+        <p className="max-w-[580px] text-black text-center flex md:text-start my-5 md:my-0 px-5 md:px-0">
+          Meet the skilled and experienced team behind our successful digital
+          marketing strategies
+        </p>
+      </div>
 
-        <div className="grid lg:grid-cols-3 gap gap-10  ">
-          {team.map((entry: EntryProps, index: number) =>
-            renderItem(entry, index)
-          )}
-        </div>
-        <div className="lg:flex lg:justify-end">
-          <Button
-            title="See all team"
-            handleButton={() => console.log("See all team")}
-            styleButton="w-full lg:w-auto bg-black py-5 px-9"
-            styleTitle="text-md sm:text-xl text-white flex"
-          />
-        </div>
+      <div className="grid lg:grid-cols-3 gap gap-10  ">
+        {team.map((entry: EntryProps, index: number) =>
+          renderItem(entry, index)
+        )}
+      </div>
+      <div className="lg:flex lg:justify-end">
+        <Button
+          title="See all team"
+          handleButton={() => console.log("See all team")}
+          styleButton="w-full lg:w-auto bg-black py-5 px-9"
+          styleTitle="text-md sm:text-xl text-white flex"
+        />
       </div>
     </div>
   );
