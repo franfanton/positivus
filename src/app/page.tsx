@@ -2,6 +2,7 @@
 
 import AboutUs from "@/components/Home/AboutUs";
 import CaseStudies from "@/components/Home/CaseStudies";
+import ContactUs from "@/components/Home/ContactUs";
 import OurWorking from "@/components/Home/OurWorking";
 import Services from "@/components/Home/Services";
 import Team from "@/components/Home/Team";
@@ -48,6 +49,7 @@ export default function Home() {
         <OurWorking />
         <Team />
         <Testimonials />
+        <ContactUs />
       </div>
       <div className="mt-20">ASDADADS</div>
     </div>
