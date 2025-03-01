@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import AboutUs from "@/components/Home/AboutUs";
 import CaseStudies from "@/components/Home/CaseStudies";
 import ContactUs from "@/components/Home/ContactUs";
@@ -50,8 +51,8 @@ export default function Home() {
         <Team />
         <Testimonials />
         <ContactUs />
+        <Footer />
       </div>
-      <div className="mt-20">ASDADADS</div>
     </div>
   );
 }

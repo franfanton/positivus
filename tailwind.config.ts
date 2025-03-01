@@ -14,6 +14,7 @@ export default {
         positivusGreen: "#B9FF66",
         positivusDark: "#191A23",
         positivusGray: "#F3F3F3",
+        positivusBlackLight: "#292A32",
       },
       fontFamily: {
         sans: "var(--font-space-grotesk)",

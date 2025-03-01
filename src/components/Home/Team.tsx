@@ -34,7 +34,7 @@ const Team = () => {
           </div>
           <div className="w-10 h-10 lg:w-9 lg:h-9">
             <Image
-              src="linkedIn.svg"
+              src="linkedInBlackGreen.svg"
               alt="Linked In"
               width={100}
               height={100}
