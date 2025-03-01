@@ -34,21 +34,24 @@ const Services = () => {
             <span className={`hidden lg:block text-sm ${entry.styleIconText}`}>
               Learn More
             </span>
-            <Image
-              src={entry.icon}
-              alt="Search Engine"
-              width={150}
-              height={80}
-              className="block lg:hidden"
-            />
+            <div className="w-max-[150px] h-max-[80px] lg:hidden">
+              <Image
+                src={entry.icon}
+                alt="Search Engine"
+                width={10}
+                height={10}
+                className="w-full h-full"
+              />
+            </div>
           </div>
         </div>
-        <div className="relative w-full hidden lg:block lg:max-w-[210px] lg:max-h-[170px]">
+        <div className="hidden lg:flex lg:self-center lg:max-w-[210px] lg:max-h-[210px]">
           <Image
             src={entry.icon}
             alt="Search Engine"
-            fill
-            className="object-fill"
+            width={10}
+            height={10}
+            className="w-full h-full"
           />
         </div>
       </div>
