@@ -1,3 +1,4 @@
+"use client";
 interface ButtonProps {
   title: string;
   icon?: React.ElementType;

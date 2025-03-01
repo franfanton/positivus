@@ -1,3 +1,4 @@
+"use client";
 import { NavMocks } from "@/mocks/navsMocks";
 import { NavMenu } from "../types/navMenu";
 import Image from "next/image";
