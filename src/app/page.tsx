@@ -1,6 +1,5 @@
 "use client";
 
-import Footer from "@/components/Footer";
 import AboutUs from "@/components/Home/AboutUs";
 import CaseStudies from "@/components/Home/CaseStudies";
 import ContactUs from "@/components/Home/ContactUs";
@@ -8,7 +7,6 @@ import OurWorking from "@/components/Home/OurWorking";
 import Services from "@/components/Home/Services";
 import Team from "@/components/Home/Team";
 import Testimonials from "@/components/Home/Testimonials";
-import Navbar from "@/components/Navbar";
 import { useEffect } from "react";
 
 export default function Home() {

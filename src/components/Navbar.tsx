@@ -23,7 +23,7 @@ const Navbar = () => {
     <div className="bg-white text-black sticky top-0 z-10">
       <section className="max-w-7xl mx-auto p-8 flex justify-between items-center">
         <div className="flex items-center">
-          <a href="#hero" className="flex items-center gap-2">
+          <a href="/" className="flex items-center gap-2">
             <Image src="/icon.svg" alt="Logo" width={24} height={24} />
             <h1 className="text-black">Positivus</h1>
           </a>
