@@ -41,7 +41,9 @@ project-nextjs/
 │ ├─── pages/ # Paths and pages.
 │ ├─── styles/ # Global styles.
 │ ├─── utils/ # Auxiliary functions.
-│ └└── app/ # Next.js main configuration 15
+│ ├─── mocks/ # Mocks Data
+│ ├─── types/ # Types
+│ └─── app/ # Next.js main configuration 15
 ├─── package.json # Dependencies and scripts.
 └─── README.md # This file 😃
 ```
